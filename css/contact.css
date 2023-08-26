@@ -1,0 +1,60 @@
+#contact{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.contact-container{
+    width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    margin: auto;
+    padding: 30px;
+    display: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-input{
+    width: 800px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 20px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #777;
+    font-size: 15px;
+  }
+
+.contact-input::placeholder,#subject::placeholder{
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 0.5, ;
+  }
+
+#subject option{
+    font-weight: bold;
+    font-size: 15px;
+    opacity: 0.5, ;
+  }
+  #subject{
+    height: 28px;
+  }
+#send-btn{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;}
+.text-area{
+    height: 150px;
+    padding: 16px;
+}
+.subject{
+  font-size: 16px;
+}
+

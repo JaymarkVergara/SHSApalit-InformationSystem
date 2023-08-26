@@ -1,0 +1,34 @@
+
+#course{
+   margin-bottom: 10rem;
+}
+
+.course-container{
+    width: 300px;
+}
+.course-img img{
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-size: cover;
+}
+.course-img img:hover{
+    border: 3px solid black;
+}
+
+.course-txt p{
+    font-size: 16;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-course-container{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        justify-content: center;
+        gap: 1rem 8rem;
+}

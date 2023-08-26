@@ -1,0 +1,46 @@
+#hero{
+    background-image: url('img/bg-home.jpg'); 
+    height: 80vh; 
+    width: 100%; 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.hero-texts h1{
+    font-weight: 900;
+    width: 600px;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0; 
+    letter-spacing: 2px;
+}
+.hero-texts p{ 
+    width: 600px ;
+    line-height: 1.8;
+    letter-spacing: 1.4px;
+    margin-bottom: 2rem;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+}
+.hero-texts button{
+    background:#088178; ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hero-texts button:hover{
+    background:#0b6f68; ;
+    padding: 12px 15px;
+}
+
+.hero-img img{
+    height: 300px;
+    border-radius: 10px;
+}

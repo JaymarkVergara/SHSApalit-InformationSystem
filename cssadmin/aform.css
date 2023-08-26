@@ -1,0 +1,42 @@
+
+.students-section{
+    margin-left: 12rem;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.add-student-form{
+    background-color: rgb(226, 225, 225);
+    width: 500px;
+    padding: 40px;
+    border: 2px dotted black
+}
+.add-student-form label{
+    margin-left: 3px
+}
+.add-student-form input, .as-input{
+    width: 100%;
+    height: 35px;
+    margin: 5px;
+}
+.add-student-form .btn{
+    background-color:  #4cb74f;
+}
+.add-student-form .btn:hover{
+    background-color:  #41a244;
+}
+
+.form-a{
+    background-color: #4cb74f;
+}
+.acourse-td button{
+    background-color:  #4cb74f;
+}
+
+
+.view-students p{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+ }
